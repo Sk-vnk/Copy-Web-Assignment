@@ -1,0 +1,225 @@
+html {
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+#logo {
+  width: 180px;
+}
+
+.WhiteText {
+  color: aliceblue;
+  margin-top: 60px
+}
+.padding350{
+    padding-top: 35px;
+}
+body {
+  background-color: rgb(18, 18, 18);
+  color: whitesmoke;
+  margin: 0px;
+}
+
+a {
+  font-size: 21px;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  transform: scale(1,1);
+  transition: ease-in-out 0.1;
+  color: rgb(27, 195, 27);
+}
+
+.container {
+  max-width: 1500px;
+  position: right;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+.banner {
+  background-color: rgb(110, 228, 7);
+}
+
+.spotifyLogo {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  
+}
+
+#flex-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+    transition: ease-in;
+}
+
+.topBanner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    padding-left: 50px;
+    height: 87px;
+}
+
+button {
+  border-radius: 220px;
+  justify-content: center;
+  background-color: gold;
+}
+
+#enjoy {
+  font-weight: lighter;
+  font-size: 30px;
+}
+#Get1 {
+  margin: 5px;
+  width: 500px;
+  height: 50px;
+  background-color: pink;
+  font-weight: bold;
+}
+#Get2 {
+  margin: 5px;
+  width: 500px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+}
+
+#profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 7px;
+    padding-left: 20px;
+}
+
+#fPlan {
+  width: 90px;
+  background-color: rgb(224, 224, 224);
+  color: #121111;
+}
+
+#pPlan {
+  width: 150px;
+  height:130px;
+  background-color: rgb(185, 24, 185)
+}
+
+.spotifyB{
+    background-image: url("./images/spotifybackground.png");
+    background-repeat: no-repeat;
+    Height: 500px;
+    background-position: right -70px top !important;
+    font-weight: bold;
+}
+
+#money {
+  margin: 10px;
+}
+.BodyTwo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tableCenter{
+  text-align: center;
+}
+
+#paymentBox {
+  display: flex;
+  flex-direction: column;
+  border: 5px;
+  border-radius: 20px;
+  text-align: center;
+  border-width: 5px;
+  border-color: blueviolet;
+  border-style: solid;
+  width: 25%;
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.boxSection{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boxOne, .boxTwo, .boxThree, .boxFour, .boxFive{
+  border-radius: 30px;
+  background-color: rgb(18, 18, 18);
+  width: 300px;
+  height: 440px;
+  margin: 20px;
+  padding: 20px;
+  border: 4px solid;
+}
+
+.boxOne{
+  padding: 0px 500px;
+  border-color: rgb(56, 16, 199);
+  position: relative;
+}
+
+.boxTwo{
+  border-color: rgb(208, 166, 174);
+}
+
+.boxThree{
+  border-color: rgb(193, 208, 80);
+}
+
+.boxFour{
+  border-color: rgb(116, 183, 202);
+}
+
+.boxFive{
+  border-color: rgb(179, 145, 188);
+}
+
+
+footer{
+  display: flex;
+  padding: 50px 20px;
+  background-color: black;
+  height: 300px;
+  justify-content: space-evenly;
+}
+
+
+
+.footerLogo, .company, .comunities, .usefulLinks{
+  display: flex;
+  flex-direction: column;
+}
+
+.socailItems{
+  display: flex;
+  flex-direction: row;
+}
+
+.company a{  
+  padding: 10px;
+}
+
+.comunities a{  
+  padding: 10px;
+}
+.usefulLinks a{  
+  padding: 10px;
+}
